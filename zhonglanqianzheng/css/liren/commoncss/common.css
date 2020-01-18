@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-size: 13px;
+    outline: none;
+    color: #000;
+}
+/*顶部样式开始*/
+.top {
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.logo {
+    width: 285px;
+    height: 80px;
+    float: left;
+}
+.top-list {
+    width: 800px;
+    height: 80px;
+    float: right;
+    line-height: 80px;
+}
+.top-list .top-list-ul {
+    margin-top: 30px;
+    width: 800px;
+    height: 30px;
+    overflow: hidden;
+}
+.top-list-ul li {
+    width: 85px;
+    height: 40px;
+    float: right;
+    /*padding-top: 20px;*/
+}
+.top-list-ul li a {
+    width: 85px;
+    height: 30px;
+    line-height: 30px;
+    float: right;
+    text-align: right;
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: all 0.5s;
+}
+.top-list-ul li a:nth-child(2) {
+    color: red;
+}
+.top-list-ul li:hover a {
+    top: -30px;
+}
+.li-eng {
+    position: relative;
+}
+.li-hot {
+    position: relative;
+}
+.li-hot .hot {
+    width: 20px;
+    height: 10px;
+    background: url(../images/img-map.png) no-repeat 0 0;
+    position: absolute;
+    top: 0;
+    right: -16px;
+}
+.li-eng .eng {
+    width: 20px;
+    height: 10px;
+    background: url(../images/img-map.png) no-repeat -19px 0;
+    position: absolute;
+    top: 10px;
+    left: 24px;
+}
+/*顶部样式结束*/
+/*导航栏区域样式开始*/
+
+.outer-nav {
+    width: 100%;
+    height: 45px;
+    background: #333;
+    position: relative;
+}
+.nav {
+    width: 1200px;
+    height: 45px;
+    margin: 0 auto;
+}
+.nav-list li {
+    height: 45px;
+    line-height: 45px;
+    float: left;
+    padding: 0 23px;
+}
+.nav-list{
+	width: 960px;
+	height: 45px;
+	float: left;
+}
+.nav-list li a {
+    color: #fff;
+    font-size: 14px;
+}
+.nav-list>li:last-child{
+	background: #f00;
+}
+.nav-list>li:last-child:hover{
+    background: #f00;
+}
+.nav-list>li:hover{
+	background: #000;
+}
+.nav-search{
+	width: 220px;
+	height: 45px;
+	float: right;
+}
+.nav input[type="input"] {
+    width: 180px;
+    height: 20px;
+    outline: none;
+    border-radius: 20px;
+    margin-top: 12.5px;
+    border: 0;
+    float: left;
+}
+.nav input[type="image"]{
+	float: left;
+}
+/*电饼档*/
+.subnav{
+	width: 100%;
+	height: 0;
+	position: absolute;
+	top: 44px;
+	left: 0px;
+	overflow: hidden;
+	transition: all 0.5s;
+	z-index: 999;
+	background: #fff;
+    border-bottom: 1px solid lightgray;
+    /*display: none;*/
+}
+.nav-list>li:hover .subnav{
+    height: 210px;
+    transition: all 0.5s;
+}
+.subnav-list{
+    width: 1200px;
+    height: 210px;
+    margin: 0px auto;
+}
+.black{
+    background: #000;
+}
+.subnav-list li{
+	width: 171px;
+	height: 200px;
+	float: left;
+	margin-top: 20px;
+	padding: 0 14px;
+}
+.subnav-list li p{
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+.subnav-list li p a{
+	color: #000;
+	font-size: 13px;
+}
+.subnav-list li p:nth-child(3) a{
+	color: #f00;
+}
+.subnav-list li img{
+	width: 171px;
+	/*height: 130px;*/
+	border-right: 1px solid #E2E2E2;
+}
+.subnav-list li .p1 a{
+	color: #f00;
+}
+/*电压力锅*/
+.subnav-list li:nth-child(6) img{
+	border-right: 0;
+}
+/*导航栏区域样式结束*/
+/*服务区域样式开始*/
+.service-outer{
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid skyblue;   
+}
+.service{
+    width: 1200px;
+    height: 70px;
+    margin: 30px auto 0px;
+    display: flex;
+}
+.service-layout{
+    width: 1200px;
+}
+.service-layout-1{
+    width: 250px;
+    height: 40px;
+    /*padding-left: 50px;*/
+    float: left;
+    border-right: 1px solid lightgray;
+    flex-direction: space-between;
+    margin-right: 97px;
+}
+.service-layout-1:hover img{
+    margin-top: -5px;
+    transition: all 0.5s;
+}
+.service-layout-1:hover span{
+    color: lightgray;
+}
+.service-layout-1 img{
+    margin-right: 35px;
+    transition: all 0.5s;
+}
+.layout-1{
+    width: 51px;
+    height: 51px;
+    float: left;
+}
+.service-layout-2{
+    text-indent: 15px;
+}
+.service-span{
+    font-size: 18px;
+    display: inline-block;
+    width: 75px;
+    height: 40px;
+    line-height: 46px;
+    float: left;
+    margin-left: 30px;
+    transition: all 0.5s;
+}
+.service-span1{
+    width: 92px;
+}
+.base{
+    line-height: 60px;
+    width: 90px;
+}
+.service-right{
+    width: 156px;
+    border: 0px;
+    margin-right: 0px;
+}
+/*服务区域样式结束*/
+/*页脚区域样式开始*/
+.footer{
+    width: 1200px;
+    height: 220px;
+    margin: 0px auto;
+}
+.footer-left{
+    width: 600px;
+    height: 220px;
+    float: left;
+}
+.footer-list{
+    width: 137.5px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    float: left;
+}
+.footer-list>li{
+    width: 60px;
+    height: 25px;
+    line-height: 25px;
+    color: gray;
+}
+.footer-right{
+    width: 600px;
+    height: 220px;
+    float: right;   
+}
+.vinxin,.weibo,.tel{
+    margin-top: 20px;
+}
+.vinxin{
+    width: 95px;
+    height: 95px;
+    float: left;
+    text-align: center;
+    color: gray;
+    margin-right: 20px;
+}
+.weibo{
+    width: 95px;
+    height: 95px;
+    float: left;
+    text-align: center;
+    color: gray;
+    margin-right: 100px;
+}
+.tel{
+    width: 150px;
+    height: 32px;
+    float: left;
+}
+.footer-right-span{
+    display: inline-block;
+    margin-top: 15px;
+}
+.tel-p1{
+    width: 160px;
+    height: 30px;
+    font-size: 22px;
+    line-height: 30px;
+}
+.tel-p2{
+    width: 135px;
+    height: 30px;
+    color: gray;
+    line-height: 30px;
+    margin: 10px 0px 10px 15px;
+}
+.tel-p3{
+    width: 110px;
+    height: 30px;
+    line-height: 30px;
+    border:1px solid red;
+    color: red;
+    text-align: center;
+    margin-left: 38px;
+}
+.tel-p3-img{
+    background: url(../images/img-map.png) no-repeat 10px -59px;
+}
+.tel-p3-img{
+    float: left;
+    width: 25px;
+    height: 30px;
+    margin-top: -5px;
+    margin-left: 8px;
+}
+.kefu{
+    width: 70px;
+    height: 30px;
+    float: left;
+}
+.tel-right{
+    width: 150px;
+    height: 220px;
+    float: right;
+}
+.footer-vx{
+    margin-left: 30px
+}
+/*页脚区域样式结束*/
+/*最后区域样式开始*/
+.last{
+    width: 100%;
+    height: 50px;
+    background-color: #F6F6F6;
+}
+.last-layout{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    color: gray;
+}
+.last-layout-left{
+    width: 600px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+}
+.last-layout-left1{
+    width: 280px;
+    height: 50px;
+    float: left;
+}
+.last-layout-left2{
+    width: 51px;
+    height: 17px;
+    float: left;
+    margin-top: 4px;
+}
+.last-layout-right{
+    width: 600px;
+    height: 50px;
+    float: right;
+    text-align: right;
+    line-height: 50px;
+}
+/*最后区域样式结束*/

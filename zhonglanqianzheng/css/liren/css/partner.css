@@ -1,0 +1,74 @@
+/*招商合作区域css*/
+.partner{
+    width: 1200px;
+    height: 70px;
+    margin: 0px auto;
+}
+.partner-title{
+    width: 100px;
+    height: 70px;
+    font-size: 24px;
+    line-height: 70px;
+    float: left;
+}
+.partner-tel{
+    width: 180px;
+    height: 70px;
+    line-height: 70px;
+    float: right;
+}
+.partner-img{
+    width: 1200px;
+    height: 378.2px;
+    margin: 0px auto;
+}
+.parnter-list{
+    width: 1200px;
+    height: 434px;
+    margin: 0px auto 50px;
+}
+.parnter-list li{
+    width: 400px;
+    height: 216px;
+    float: left;
+    margin-top: 40px;
+    border-bottom: 1px solid gray;
+}
+.partner-color{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.line{
+    width: 40px;
+    height: 2px;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background: lightgray;
+}
+.line-layout{
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #f00;
+    transition: all 1s;
+}
+.parnter-list li:hover .partner-color{
+    color: red;
+}
+.parnter-list li:hover .line-layout{
+    width: 40px;
+    transition: all 1s;
+    z-index: 999;
+}
+.parnter-list li p:nth-child(3){
+    width: 350px;
+}
+.partner-hr{
+    width: 1200px;
+    height: 1px;
+    background: gray;
+    margin: 0px auto 70px;
+}

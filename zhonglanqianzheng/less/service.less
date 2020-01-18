@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.service-header{
+    margin-top: 82px;
+}
+
+@media screen and (max-width: 768px){
+        .service-header{
+            margin-top: 0;
+    }
+}
+
+
+
+
+//背景图片
+.service-item .liucheng{
+    background: url(../images/liucheng.png) no-repeat;
+}
+.service-item .zhoubian{
+    background: url(../images/zhoubian.png) no-repeat;
+}
+.service-item .quancheng{
+    background: url(../images/quancheng.png) no-repeat;
+}
+
+
+.service-item dd{
+    height: 164px;
+    padding-left: 144px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.service-item .service-item-title{
+    color: #333;
+}
+
+a{
+    text-decoration: none !important;
+    &:hover{
+        color: #337ab7 !important;
+    }
+}
+
+.service-item h3{
+    line-height: 1.5em;
+    border-bottom: 1px dashed #c1c1c1;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    font-weight: 300 !important;
+}
+
+.service-item p{
+    line-height: 2em;
+}
+.service-item p>span{
+    display: inline-block;
+    font-weight: normal;
+    margin-right: 20px;
+}
+.star{
+    color: #ddd;
+    i{
+        color: #f90;
+        font-style: normal !important;
+    }
+}
+.service-item .btn{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    color: #f93;
+    border-color: #f93;
+    transition: all 0.5s;
+    &:hover{
+        background-color: #f93;
+        color: #fff;
+        transition: all 0.5s;
+    }
+}
+
+
+//线条
+#right-line{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 25%;
+    height: 100%;
+    border-left: 1px solid #c1c1c1;
+}
+
+
+//右部分
+#sidebar{
+    overflow: hidden;
+    position: fixed;
+    top: 140px;
+}
+#sidebar-content{
+    width: 115%;
+    height: 100% !important;
+    overflow-y: scroll;
+    h4:first-child{
+        padding-top: 0 !important;
+    }
+    h4{
+        border-bottom: 1px solid #c1c1c1;
+        margin: 0;
+        padding-bottom: 15px;
+        padding-top: 30px !important;
+    }
+}
+.sidebar-contact{
+    padding: 15px 0 0 7px;
+    a{
+        display: block;
+        margin: 5px ;
+        height: 32px;
+        padding-left: 32px;
+        line-height: 32px;
+        overflow: hidden;
+        font-size: 18px;
+        color: #f93;
+        background-image: url(../images/sidebar-bg.png);
+        background-repeat: no-repeat;
+        &:hover{
+            color: #f93 !important;
+        }
+    }
+}
+.sidebar-contact a.sidebar-qq{
+    background-position: 0 -32px; 
+    &:hover{
+            color: #f93 !important;
+        }
+}
+.sidebar-contact a.sidebar-chat{
+    background-position: 0 -64px;
+    &:hover{
+            color: #f93 !important;
+        }
+}
+
+#sidebar .sidebar-right ul{
+    margin-top: 15px;
+    li{
+        padding-left: 0;
+        text-indent: 1em;
+        line-height: 2em;
+        list-style: none;
+        a{
+            color: #333;
+        }
+        &:hover{
+            color: #0ba1e4 !important;
+        }
+    }
+}

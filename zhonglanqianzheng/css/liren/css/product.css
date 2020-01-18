@@ -1,0 +1,235 @@
+.product{
+    width: 1200px;
+    height: 70px;
+    margin: 0px auto;
+    /*overflow: hidden;*/
+}
+.product-title{
+    width: 100px;
+    height: 70px;
+    font-size: 24px;
+    line-height: 70px;
+    float: left;
+}
+.product-tel{
+    width: 286px;
+    height: 70px;
+    line-height: 70px;
+    color: gray;
+    float: right;
+}
+.product-outer{
+    width: 1200px;
+    margin: 0px auto 20px;
+    padding-bottom: 25px;
+    border: 1px solid #E5E5E5
+}
+.product-outer .product-list{
+    width: 1200px;
+    display: flex;
+}
+.product-outer .product-list p{
+    width: 80px;
+    float: left;
+    color: lightgray;
+    text-align: right;
+    padding: 25px 0px 0 0;
+}
+.product-outer .product-list ul{
+    width: 1000px;
+    float: left;
+}
+.product-outer .product-list li{
+    float: left;
+    padding: 25px 30px 0px 20px;
+    cursor: pointer;
+}
+.product-outer .product-list li:hover{
+    color: #f00;
+}
+.red{
+    color: red;
+}
+.product-complete,.product-complete1,.product-complete2{
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: none;
+}
+.product-complete div,.product-complete1 div,.product-complete2 div{
+    width: 284px;
+    height: 325px;
+    overflow: hidden;
+    border: 1px solid gray;
+    position: relative;
+    margin-bottom: 30px;
+}
+.product-complete div .product-img{
+    width: 254px;
+    height: 240px;
+    transition: all 0.5s;
+}
+.product-complete1 div .product-img{
+    width: 254px;
+    height: 240px;
+    transition: all 0.5s;
+}
+.product-complete2 div .product-img{
+    width: 254px;
+    height: 240px;
+    transition: all 0.5s;
+}
+.product-complete div .product-img2{
+    position: absolute;
+    left: 122px;
+    top: -40px;
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+.product-complete1 div .product-img2{
+    position: absolute;
+    left: 122px;
+    top: -40px;
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+.product-complete2 div .product-img2{
+    position: absolute;
+    left: 122px;
+    top: -40px;
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+.product-complete div:hover .product-img2{
+    top: 100px;
+    transition: all 0.5s;
+}
+.product-complete1 div:hover .product-img2{
+    top: 100px;
+    transition: all 0.5s;
+}
+.product-complete2 div:hover .product-img2{
+    top: 100px;
+    transition: all 0.5s;
+}
+.product-complete div .product-border{
+    width: 0px;
+    height: 0;
+    border-bottom: 1px solid red;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 0px;
+    bottom: 52px;
+}
+.product-complete1 div .product-border{
+    width: 0px;
+    height: 0;
+    border-bottom: 1px solid red;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 0px;
+    bottom: 52px;
+}
+.product-complete2 div .product-border{
+    width: 0px;
+    height: 0;
+    border-bottom: 1px solid red;
+    transition: all 0.5s;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 0px;
+    bottom: 52px;
+}
+.product-complete div:hover .product-border{
+    width: 285px;
+    transition: all 0.5s;
+}
+.product-complete1 div:hover .product-border{
+    width: 285px;
+    transition: all 0.5s;
+}
+.product-complete2 div:hover .product-border{
+    width: 285px;
+    transition: all 0.5s;
+}
+.product-complete div p:nth-child(4){
+    position: absolute;
+    left: 10px;
+    bottom: 42px;
+}
+.product-complete1 div p:nth-child(4){
+    position: absolute;
+    left: 10px;
+    bottom: 42px;
+}
+.product-complete2 div p:nth-child(4){
+    position: absolute;
+    left: 10px;
+    bottom: 42px;
+}
+.product-complete div p:last-child a{
+    font-size: 10px;
+    color: gray;
+    margin-top: 5px;
+     position: absolute;
+    left:10px;
+    bottom: 27px;
+}
+.product-complete1 div p:last-child a{
+    font-size: 10px;
+    color: gray;
+    margin-top: 5px;
+     position: absolute;
+    left:10px;
+    bottom: 27px;
+}
+.product-complete2 div p:last-child a{
+    font-size: 10px;
+    color: gray;
+    margin-top: 5px;
+     position: absolute;
+    left:10px;
+    bottom: 27px;
+}
+.product-complete div:hover .product-img{
+    width: 320px;
+    height: 270px;
+    transition: all 0.5s;
+}
+.product-complete1 div:hover .product-img{
+    width: 320px;
+    height: 270px;
+    transition: all 0.5s;
+}
+.product-complete2 div:hover .product-img{
+    width: 320px;
+    height: 270px;
+    transition: all 0.5s;
+}
+.product-complete div:hover .product-a{
+    color: red;
+}
+.product-complete1 div:hover .product-a{
+    color: red;
+}
+.product-complete2 div:hover .product-a{
+    color: red;
+}
+.product-more{
+    width: 1200px;
+    height: 40px;
+    margin: 0px auto 40px;
+    background-color: #F6F6F6;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color: gray;
+    cursor: pointer;
+}
+.product-more:hover{
+    background-color: lightgray;
+}

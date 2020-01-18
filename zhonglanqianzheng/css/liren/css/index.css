@@ -1,0 +1,371 @@
+/*banner区域样式开始*/
+.banner{
+	width: 100%;
+	height: 519.58px;
+	position: relative;
+}
+.banner-list{
+	width: 100%;
+	height: 519.58px;
+}
+.banner-list li{
+	width: 100%;
+	height: 519.58px;
+	float: left;
+	display: none;
+}
+.banner-list .banner-skip{
+	display: block;
+}
+.banner-list li img{
+	width: 100%;
+	height: 519.58px;
+}
+/*圆点*/
+#banner-list1{
+	width: 300px;
+	height: 15px;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -150px;
+}
+#banner-list1 li{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #ccc;
+	float: left;
+	margin-right: 20px;
+}
+#banner-list1 .gray{
+	background-color: #fff;
+	border: 1px solid red;
+}
+#left{
+	width: 0;
+	position: absolute;
+	top: 50%;
+	left: 170px;
+	margin-top: -25px;
+	cursor: pointer;
+	overflow: hidden;
+	transition: all 0.5s;
+}
+#right{
+	width: 0;
+	position: absolute;
+	top: 50%;
+	right: 170px;
+	margin-top: -25px;
+	cursor: pointer;
+	overflow: hidden;
+	transition: all 0.5s;
+}
+.banner:hover #left{
+	display: block;
+	left: 250px;
+	width: 50px;
+}
+.banner:hover #right{
+	display: block;
+	right: 250px;
+	width: 50px;
+}
+/*banner区域样式结束*/
+/*新闻区域开始*/
+.news{
+	width: 1200px;
+	height: 60px;
+	border-top: 1px solid skyblue;
+	margin: 0 auto;
+}
+.news-lay1{
+	width: 55px;
+	height: 20px;
+	border-radius: 20px;
+	border:1px solid red;
+	text-align: center;
+	margin-top: 20px;
+	float: left;
+	line-height: 20px;
+}
+.news-lay2{
+	width: 524px;
+	height: 20px;
+	margin-top: 22px;
+	margin-left: 20px;
+	float: left;
+	line-height: 20px;
+}
+.news-lay2 a{
+	font-size: 12px;
+	float: left;
+}
+.news-lay3{
+	width: 70px;
+	height: 20px;
+	font-size: 12px;
+	float: right;
+}
+.news-lay4{
+	width: 260px;
+	height: 20px;
+	line-height: 20px;
+	float: right;
+	margin-left: 305px;
+	margin-top: 22px;
+}
+.news-span{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.news-vb{
+	width: 20px;
+	height: 13px;
+	display: inline-block;
+	background: url(../images/img-map.png) no-repeat 0 -43px;
+	margin: 0 10px;
+}
+/*新闻区域样式结束*/
+/*新闻区域下内容区样式开始*/
+.main{
+	width: 100%;
+    height: 680px;
+    background-color: #F6F6F6;
+    position: relative;
+	}
+.main-layout1{
+	width: 100%;
+	height: 223.59px;
+}
+.main-pic{
+	width: 25%;
+    height: 223.59px;
+	float: left;
+}
+.main-pic img{
+	width: 100%;
+	height: 223.59px;
+}
+.mainpicmask-outer1,.mainpicmask-outer2,.mainpicmask-outer3,.mainpicmask-outer4{
+	width: 25%;
+	height: 223.59px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.mainpicmask1,.mainpicmask2,.mainpicmask3,.mainpicmask4{
+	width: 100%;
+	height: 223.59px;
+	position: absolute;
+	top: 223.59px;
+	left: 0px;
+	height: 0;
+	overflow: hidden;
+	transition: all 0.6s;
+}
+.mainpicmask-outer1:hover{
+	background: rgba(0,0,0,0.5);
+}
+.mainpicmask-outer1:hover .mainpicmask1{
+	top: 0px;
+	height: 223.59px;
+	transition: all 0.6s;
+}
+.mainpicmask1 p:first-child{
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	padding-top: 85px;
+}
+.mainpicmask1 p:last-child{
+	color: #fff;
+	text-align: center;
+}
+.mainpicmask-outer2{
+	left: 25%;
+}
+.mainpicmask-outer2:hover{
+	background: rgba(0,0,0,0.5);
+}
+.mainpicmask-outer2:hover .mainpicmask2{
+	top: 0px;
+	height: 223.59px;
+	transition: all 0.6s;
+}
+.mainpicmask2 p:first-child{
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	padding-top: 85px;
+}
+.mainpicmask2 p:last-child{
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
+.mainpicmask-outer3{
+	left: 50%;
+}
+.mainpicmask-outer3:hover{
+	background: rgba(0,0,0,0.5);
+}
+.mainpicmask-outer3:hover .mainpicmask3{
+	top: 0px;
+	height: 223.59px;
+	transition: all 0.6s;
+}
+.mainpicmask3 p:first-child{
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	padding-top: 85px;
+}
+.mainpicmask3 p:last-child{
+	width: 100%;
+	color: #fff;
+	text-align: center;
+}
+.mainpicmask-outer4{
+	left: 75%;
+}
+.mainpicmask-outer4:hover .mainpicmask4{
+	top: 0px;
+	height: 223.59px;
+	transition: all 0.6s;
+}
+.mainpicmask4 p:first-child{
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	padding-top: 155px;
+}
+.main-layout2{
+	width: 1200px;
+	height: 90px;
+	margin: 0 auto;
+}
+.main-layout2-left{
+	width: 80px;
+	height: 90px;
+	line-height: 90px;
+	font-size: 20px;
+	float:left;
+}
+.main-layout2-right{
+	width: 80px;
+	height: 20px;
+	border:1px solid #A1A1A1;
+	border-radius: 20px;
+	float: right;
+	text-align: center;
+	margin-top: 42px;
+	cursor: pointer;
+}
+#tabchange{
+	width: 1200px;
+	height: 240px;
+	margin: 0 auto;
+}
+.main-layout3{
+	width: 1200px;
+	height: 325px;
+	margin: 0 auto;
+	background-color: #fff;
+	text-align: center;
+	color: gray;
+	position: relative;
+	display: none;
+}
+.main-layout3-pic{
+	width: 273.5px;
+	height: 154.75px;
+	float: left;
+	margin-top: 70px;
+	transition: all 0.5s;
+	border-right: 1px solid lightgray;
+}
+.main-layout3 div:nth-child(4) p{
+	margin-bottom: 0px;
+}
+.main-layout3-pic img{
+	margin-bottom: 10px;
+}
+.main-layout3-pic p{
+	margin-bottom: 10px;
+}
+.main-layout3-pic:hover{
+	margin-top: 65px;
+	transition: all 0.5s;
+}
+.main-layout3-pic:hover a{
+	color: red;
+}
+.main-layout3 .main-layout3-pic{
+	color: #000;
+}
+.main-layout4{
+	width: 1100px;
+	height: 21px;
+	position: absolute;
+	left: 50%;
+	bottom: 60px;
+	margin-left: -550px;
+	text-align: center;
+}
+.main-layout4-1,.main-layout4-2,.main-layout4-3,.main-layout4-4,.main-layout4-5{
+    width: 70px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 20px;
+	float: left;
+	cursor: pointer; 
+}
+.main-layout4-1{
+	border:1px solid #86D5FA;
+	color: #fff;
+	margin-left: 360px;
+	background-color: #45BEF5;
+}
+.main-layout4-2{
+	color: #3CCD89;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 1px solid #3CCD89
+}
+.main-layout4-3{
+	border:1px solid orange;
+	color: orange;
+}
+.main-layout4-4{
+	border:1px solid #F47972;
+	color: #F47972;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.main-layout4-5{
+	border:1px solid #86D5FA;
+	color: #86D5FA;
+}
+.main-layout4-span{
+	display: inline-block;
+	margin-top: 5px;
+}
+.main-layout4-2:hover{
+	background-color: #3CCD89;
+	color: #fff;
+}
+.main-layout4-3:hover{
+	background-color: orange;
+	color: #fff;
+}
+.main-layout4-4:hover{
+	background-color: #F47972;
+	color: #fff;
+}
+.main-layout4-5:hover{
+	background-color: #86D5FA;
+	color: #fff;
+}
+/*新闻区域下内容区域样式结束*/

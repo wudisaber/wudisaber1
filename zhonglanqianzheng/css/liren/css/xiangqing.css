@@ -1,0 +1,143 @@
+.img-outer{
+	width: 1200px;
+	margin: 20px auto 0px;
+}
+.product-img{
+	width: 700px;
+	height: 450px;
+	float: left;
+	margin: 0px 50px 20px 0px;
+}
+.product-img img{
+	width: 700px;
+	height: 450px;
+	display: none;
+}
+.img-title{
+	width: 450px;
+	float: left;
+}
+.img-title a{
+	color: white;
+	font-size: 14px;
+}
+.img-title h2{
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+.online{
+	width: 450px;
+	height: 40px;
+	margin-bottom: 30px;
+}
+.img-title .online div:first-child{
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: skyblue;
+	float: left;
+	margin-right: 5px;
+}
+.img-title .online div:last-child{
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: orange;
+	float: left;
+}
+.img-title hr{
+	color: lightgray;
+	margin-bottom: 30px;
+}
+.contact-share-outer{
+    color: gray;
+}
+.share{
+    width: 175px;
+    height: 32px;
+    position: relative;
+    top: -25px;
+    left: 60px;
+    background: url(../images/img-map.png) no-repeat -40px 0px;
+}
+.ul{
+	width: 1200px;
+	margin: 0px auto 20px;
+}
+.list{
+	width: 700px;
+	display: flex;
+	justify-content: space-between;
+}
+.list li{
+	width: 124px;
+	height: 120px;
+	float: left;
+	cursor: pointer;
+}
+.list li img{
+	width: 124px;
+	height: 120px;
+}
+.like{
+	width: 1200px;
+	height: 70px;
+	line-height: 70px;
+	margin: 0px auto 20px;
+	border-bottom: 1px solid lightgray;
+}
+.like span{
+	display: block;
+	float: left;
+}
+.imgmap{
+	width: 30px;
+	height: 30px;
+	background: url(../images/img-map.png) no-repeat -218px -47px;
+	margin: 20px 10px 0px 0px;
+}
+.like span:last-child{
+	font-size: 18px;
+}
+.imglist{
+	width: 1200px;
+	height: 220px;
+	margin: 0px auto 30px;
+	border-bottom: 1px solid lightgray;
+}
+.imglist ul{
+	width: 1200px;
+}
+.imglist ul li{
+	width: 240px;
+	float: left;
+	text-align: center;
+}
+.imglist ul li img{
+	width: 180px;
+	height: 140px;
+	transition: all 0.5s;
+}
+.imglist ul li p:nth-child(2){
+	margin-bottom: 10px;
+}
+.imglist ul li p:nth-child(3){
+	color: red;
+}
+.imglist ul li:hover img{
+	margin-top: -10px;
+	transition: all 0.5s;
+}
+.imglist ul li:hover p{
+	color: red;
+}
+.imgs{
+	width: 750px;
+	margin: 0px auto;
+}
+.imgs img{
+	
+}
