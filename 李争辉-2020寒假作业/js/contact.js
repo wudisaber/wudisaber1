@@ -1,0 +1,12 @@
+$(".like_btn").mouseover(function(){
+	$(".like_nomber").css("display","block")
+	$(".like_nomber").animate({
+		"width":"135px"
+	},500)
+})
+$(".like_btn").mouseout(function(){
+	$(".like_nomber").css("display","none")
+	$(".like_nomber").animate({
+		"width":"0px"
+	},1)
+})

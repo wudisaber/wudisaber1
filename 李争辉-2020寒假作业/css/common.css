@@ -1,0 +1,272 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+body{
+	font-family: STKaiti, KaiTi_GB2312, "华文楷体", "宋体", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background: #f1f2f6;
+}
+/*导航条*/
+.header_wrap{
+	width: 100%;
+	background-color: #221236;
+	background: url(../images/header_bg.jpg) top center;
+}
+.header{
+		width: 1100px;
+		height: 120px;
+		margin: 0 auto;
+}
+.logo{
+	float: left;
+}
+.nav_wrap{
+	width: 630px;
+	height: 25px;
+	line-height: 25px;
+	float: right;
+	margin: 0 auto;
+	margin-top: 45px;
+}
+.nav-piece{
+	float: left;
+	position: relative;
+	z-index: 999;
+}
+.nav-piece a{
+	display: block;
+	color: #fff;
+	font-size: 14px;
+	height: 35px;
+	padding: 0 20px;
+	text-align: center;
+}
+.xiaojiantou_img{
+	position: absolute;
+	display: block;
+	width: 25px;
+	height: 25px;
+	right: 8px;
+	background: url(../images/nav_xiajiantou.png) no-repeat;
+	z-index: 999;
+	position: absolute;
+	top: 0;
+	right: -10px;
+}
+.header div.nav-marright{
+	margin-right: 20px;
+}
+.nav-square{
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background-color: #FFFFFF;
+	position: relative;
+	top: 8px;
+	left: 50%;
+	display: none;
+	z-index: 99999;
+}
+.nav-piece:hover .nav-square{
+	display: block;
+}
+.active{
+	display: block;
+}
+
+.header .nav-piece ul{
+	overflow: hidden;
+	height: 0px;
+	padding-top: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	font-size: 15px;
+	position: absolute;
+	left: -16px;
+	top: 35px;
+	width: 180px;
+	line-height: 36px;
+	background: #36264a;
+	color: #fff;
+	cursor: pointer;
+	z-index: 999;
+}
+.header .nav-piece ul li{
+	padding-left: 30px;
+	position: relative;
+}
+.header .nav-piece ul li:hover{
+	background: dodgerblue;
+}
+.header .nav-piece ul li a{
+	padding: 0;
+	text-align: left;
+	text-indent: 5px;
+	transition: all 0.5s;
+}
+.header .nav-piece ul li:hover a{
+	text-indent: 15px;
+	transition: all 0.5s;
+}
+.nav-piece2:hover #nav_ul1{
+	animation: slidedown1 0.5s linear 0s normal none 1 running;
+}
+@keyframes slidedown1{
+	0%{
+		height: 0;
+	}
+	25%{
+		height: 240px;
+	}
+	50%{
+		height: 210px;
+	}
+	75%{
+		height: 240px;
+	}
+	100%{
+		height: 210px;
+	}
+}
+
+.nav_wrap div.nav-piece4:hover #nav_ul2{
+	animation: slidedown2 0.5s linear 0s normal none 1 running;
+}
+.nav_wrap div.nav-piece5:hover #nav_ul3{
+	animation: slidedown2 0.5s linear 0s normal none 1 running;
+}
+@keyframes slidedown2{
+	0%{
+		height: 0;
+	}
+	25%{
+		height: 130px;
+	}
+	50%{
+		height: 105px;
+	}
+	75%{
+		height: 130px;
+	}
+	100%{
+		height: 105px;
+	}
+}
+
+
+/*底部*/
+/*底部*/
+.footer_wrap{
+	height: 280px;
+	min-width: 1100px;
+	background: url(../images/yinyue_bg.jpg);
+}
+.footer{
+	width: 1100px;
+	margin: 0 auto;
+}
+.music{
+	padding: 116px 0 0 276px;
+}
+.music span{
+	width: 57px;
+	height: 57px;
+	float: left;
+	cursor: pointer;
+	margin-right: 26px;
+	background: url(../images/yinyue_duo.png) no-repeat;
+}
+
+.music span:hover{
+	background-position: 0 -57px;
+}
+.music span:nth-child(2){
+	background: url(../images/yinyue_lai.png);
+}
+.music span:nth-child(2):hover{
+	background-position: 0 -57px;
+}
+.music span:nth-child(3){
+	background: url(../images/yinyue_mi.png);
+}
+.music span:nth-child(3):hover{
+	background-position: 0 -57px;
+}
+.music span:nth-child(4){
+	background: url(../images/yinyue_fa.png);
+}
+.music span:nth-child(4):hover{
+	background-position: 0 -57px;
+}
+.music span:nth-child(5){
+	background: url(../images/yinyue_suo.png);
+}
+.music span:nth-child(5):hover{
+	background-position: 0 -57px;
+}
+.music span:nth-child(6){
+	background: url(../images/yinyue_la.png);
+}
+.music span:nth-child(6):hover{
+	background-position: 0 -57px;
+}
+.music span:nth-child(7){
+	background: url(../images/yinyue_xi.png);
+}
+.music span:nth-child(7):hover{
+	background-position: 0 -57px;
+}
+.footer .shenmin{
+	text-align: center;
+	line-height: 65px;
+	border-top: 2px dashed #9890a2;
+	margin-top: 79px;
+	color: #fff;
+	cursor: pointer;
+	font-weight: normal;
+	font-size: 14px;
+}
+.footer .shenmin:hover{
+	color: #6cf;
+}
+
+
+
+/*返回顶部*/
+.backtop{
+	width: 87px;
+	height: 161px;
+	position: fixed;
+	right: 40px;
+	bottom: 160px;
+	display: none;
+}
+.backtop .scrolltop{
+	width: 50px;
+	height: 50px;
+	margin: 0 0 24px 17px;
+	cursor: pointer;
+	background: url(../images/scroll_top_bg.png) no-repeat;
+}
+.backtop .scrolltop:hover{
+	background: url(../images/scroll_top_bg.png) no-repeat 0px -50px;
+	transition: all 0.5s;
+}
+.backtop .backtop_message{
+	width: 87px;
+	height: 87px;
+	background: url(../images/fixed_contactus.png) no-repeat top right;
+	position: absolute;
+	top: 74px;
+	right: 0px;
+	cursor: pointer;
+}
+.backtop .backtop_message:hover{
+	width: 235px;
+	transition: all 0.5s;
+}
