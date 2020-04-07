@@ -1,0 +1,131 @@
+.cart-content{
+    width: 100%;
+    margin-bottom: 1.4rem;
+}
+.cart-content li{
+    display: flex;
+    height: 3.6rem;
+    border-bottom: 1px solid #efefef;
+}
+.cart-content li .select{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.cart-content li .select i{
+    font-size: 0.6rem;
+}
+.cart-content li .cart-img{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cart-content li .cart-img img{
+    width: 120%;
+}
+.cart-content li .cart-info{
+    width: 65%;
+    display: flex;
+    margin-left: 5%;
+    flex-direction: column;
+    justify-content: center;
+}
+.cart-content li .cart-info input{
+    width: 1.2rem;
+    height: 28px;
+    text-align: center;
+    border: 1px solid #ccc;
+    outline: none;
+    float: left;
+    line-height: 18px;
+}
+.cart-content li .cart-info .cart-title{
+    font-size: 0.37rem;
+    height: 1rem;
+    line-height: 1rem;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}
+.cart-content li .cart-info .price{
+    color: red;
+    font-size: 0.4rem;
+    float: left;
+    line-height: 30px;
+}
+.cart-content li .cart-info .number{
+    float: right;
+    margin-right: 20px;
+}
+.cart-content li .cart-info .number a{
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #efefef;
+    font-size: 0.5rem;
+}
+.cart-content li .cart-info .number button{
+    width: 50px;
+    height: 30px;
+    background: #efefef;
+    font-size: 0.4rem;
+    border: none;
+    outline: none;
+    float: left;
+    margin: 0px 10px;
+}
+.cartFooter{
+    position: fixed;
+    height: 1.2rem;
+    background: #efefef;
+    bottom: 1.7rem;
+    width: 100%;
+    display: flex;
+    font-size: 0.37rem;
+    line-height: 1.2rem;
+}
+.cartFooter .checkAll{
+    width: 30%;
+    text-align: center;
+}
+.cartFooter .checkAll i{
+    font-size: 0.6rem;
+}
+.cartFooter .checkAll span{
+    font-size: 0.5rem;
+}
+.cartFooter .priceAll{
+    width: 40%;
+}
+.cartFooter .priceAll span{
+    color: red;
+    font-weight: bold;
+    font-size: 0.5rem;
+}
+.cartFooter .tobuy{
+    width: 30%;
+    background: #ff8347;
+    text-align: center;
+}
+.cartFooter .tobuy a{
+    color: #ffffff;
+    font-size: 0.5rem;
+}
+.noCart{
+    font-size: 0.37rem;
+    color: #999;
+    text-align: center;
+}
+.noCart i{
+    font-size: 4rem;
+    color: #cccccc;
+    margin: 2rem 0 0.5rem;
+}

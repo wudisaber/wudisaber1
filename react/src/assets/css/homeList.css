@@ -1,0 +1,50 @@
+.home-list{
+    width: 100%;
+}
+.home-list .homeList{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+.home-list .homeList li:nth-child(2n+1){
+    margin: 0px 11px 10px;
+}
+.home-list .homeList li{
+    width: 45%;
+    height: 7rem;
+    border: 1px solid #cccccc;
+}
+.home-list .homeList li img{
+    width: 100%;
+    height: 4rem;
+}
+.home-list .homeList li span{
+    display: block;
+    font-size: 0.4rem;
+    text-indent: 0.1rem;
+    padding-bottom: 25px;
+}
+.home-list .homeList li .price{
+    width: 100%;
+    height: 0.3rem;
+    display: flex;
+    margin-bottom: 25px;
+}
+.home-list .homeList li .price span:nth-child(1){
+    color: #f00;
+    font-size: 0.4rem;
+    margin-right: 15px;
+}
+.home-list .homeList li .price span:nth-child(2){
+    color: gray;
+    line-height: 0.6rem;
+    text-decoration: line-through;
+}
+.home-list .text{
+    display: flex;
+    color: gray;
+}
+.home-list .text span:nth-child(1){
+    margin-right: 60px;
+}
